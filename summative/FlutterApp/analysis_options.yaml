@@ -1,0 +1,5 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional rules can be added here. Deprecation warnings (e.g. withOpacity on
+# very recent SDKs) are intentionally not treated as errors so the app builds
+# across a range of Flutter versions.

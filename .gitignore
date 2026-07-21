@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Runtime data added through the API (regenerated at runtime)
+summative/API/data/new_data.csv
+
+# Flutter
+summative/FlutterApp/build/
+summative/FlutterApp/.dart_tool/
+summative/FlutterApp/.flutter-plugins*

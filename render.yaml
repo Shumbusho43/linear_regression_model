@@ -1,0 +1,15 @@
+# Optional Render blueprint. You can also configure these settings manually
+# in the Render dashboard instead of committing this file.
+services:
+  - type: web
+    name: student-performance-api
+    runtime: python
+    plan: free
+    rootDir: summative/API
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn prediction:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: ALLOWED_ORIGINS
+        value: "*"

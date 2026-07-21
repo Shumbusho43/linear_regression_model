@@ -1,0 +1,25 @@
+name: student_performance_app
+description: >-
+  Predicts a student's final grade from socioeconomic and information-access
+  factors, so at-risk students can be connected to scholarships and support.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # 'any' lets pub pick the flutter_lints release matching the installed SDK,
+  # avoiding version-resolution errors on different Flutter versions.
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
