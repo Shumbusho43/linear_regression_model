@@ -9,9 +9,9 @@ import 'package:http/http.dart' as http;
 // CONFIGURATION
 // Replace kApiBaseUrl with the base URL of your deployed FastAPI service
 // from Task 2. No trailing slash.
-// Example: https://student-performance-api.onrender.com
+// Example: https://student-performance-api-3m5d.onrender.com
 // ---------------------------------------------------------------------------
-const String kApiBaseUrl = 'https://student-performance-api.onrender.com';
+const String kApiBaseUrl = 'https://student-performance-api-3m5d.onrender.com';
 const String kPredictPath = '/predict';
 
 void main() {

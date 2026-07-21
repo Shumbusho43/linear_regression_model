@@ -11,8 +11,8 @@ Schools and NGOs can use it to spot at-risk students early and route scholarship
 
 | Resource | URL |
 | --- | --- |
-| Swagger UI | `https://<your-service>.onrender.com/docs` |
-| Prediction endpoint | `POST https://<your-service>.onrender.com/predict` |
+| Swagger UI | `https://student-performance-api-3m5d.onrender.com/docs` |
+| Prediction endpoint | `POST https://student-performance-api-3m5d.onrender.com/predict` |
 
 > Replace `<your-service>` with your Render service name after deploying.
 
