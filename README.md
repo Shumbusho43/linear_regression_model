@@ -38,7 +38,7 @@ Schools and NGOs can use it to spot at-risk students early and route scholarship
 
 ## Video demo
 
-`https://youtu.be/ywWBbV6e1mo`
+https://youtu.be/i1U-jDN7tSA
 
 ## Model
 
